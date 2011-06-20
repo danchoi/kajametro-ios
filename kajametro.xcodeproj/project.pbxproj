@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE1800FE13AF860D00B0C973 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1800FD13AF860D00B0C973 /* UIKit.framework */; };
+		DE18010013AF860D00B0C973 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1800FF13AF860D00B0C973 /* Foundation.framework */; };
+		DE18010213AF860D00B0C973 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE18010113AF860D00B0C973 /* CoreGraphics.framework */; };
+		DE18010813AF860D00B0C973 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE18010613AF860D00B0C973 /* InfoPlist.strings */; };
+		DE18010B13AF860D00B0C973 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE18010A13AF860D00B0C973 /* main.m */; };
+		DE18010E13AF860D00B0C973 /* kajametroAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE18010D13AF860D00B0C973 /* kajametroAppDelegate.m */; };
+		DE18011113AF860D00B0C973 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE18010F13AF860D00B0C973 /* MainWindow.xib */; };
+		DE18011413AF860D00B0C973 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE18011313AF860D00B0C973 /* FirstViewController.m */; };
+		DE18011713AF860D00B0C973 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE18011613AF860D00B0C973 /* SecondViewController.m */; };
+		DE18011A13AF860D00B0C973 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE18011813AF860D00B0C973 /* FirstView.xib */; };
+		DE18011D13AF860E00B0C973 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE18011B13AF860E00B0C973 /* SecondView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE1800F913AF860D00B0C973 /* kajametro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kajametro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1800FD13AF860D00B0C973 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DE1800FF13AF860D00B0C973 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DE18010113AF860D00B0C973 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DE18010513AF860D00B0C973 /* kajametro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kajametro-Info.plist"; sourceTree = "<group>"; };
+		DE18010713AF860D00B0C973 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE18010913AF860D00B0C973 /* kajametro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kajametro-Prefix.pch"; sourceTree = "<group>"; };
+		DE18010A13AF860D00B0C973 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE18010C13AF860D00B0C973 /* kajametroAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kajametroAppDelegate.h; sourceTree = "<group>"; };
+		DE18010D13AF860D00B0C973 /* kajametroAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kajametroAppDelegate.m; sourceTree = "<group>"; };
+		DE18011013AF860D00B0C973 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		DE18011213AF860D00B0C973 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		DE18011313AF860D00B0C973 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		DE18011513AF860D00B0C973 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		DE18011613AF860D00B0C973 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		DE18011913AF860D00B0C973 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		DE18011C13AF860E00B0C973 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE1800F613AF860D00B0C973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1800FE13AF860D00B0C973 /* UIKit.framework in Frameworks */,
+				DE18010013AF860D00B0C973 /* Foundation.framework in Frameworks */,
+				DE18010213AF860D00B0C973 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE1800EE13AF860D00B0C973 = {
+			isa = PBXGroup;
+			children = (
+				DE18010313AF860D00B0C973 /* kajametro */,
+				DE1800FC13AF860D00B0C973 /* Frameworks */,
+				DE1800FA13AF860D00B0C973 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE1800FA13AF860D00B0C973 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE1800F913AF860D00B0C973 /* kajametro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE1800FC13AF860D00B0C973 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE1800FD13AF860D00B0C973 /* UIKit.framework */,
+				DE1800FF13AF860D00B0C973 /* Foundation.framework */,
+				DE18010113AF860D00B0C973 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE18010313AF860D00B0C973 /* kajametro */ = {
+			isa = PBXGroup;
+			children = (
+				DE18010C13AF860D00B0C973 /* kajametroAppDelegate.h */,
+				DE18010D13AF860D00B0C973 /* kajametroAppDelegate.m */,
+				DE18010F13AF860D00B0C973 /* MainWindow.xib */,
+				DE18011213AF860D00B0C973 /* FirstViewController.h */,
+				DE18011313AF860D00B0C973 /* FirstViewController.m */,
+				DE18011513AF860D00B0C973 /* SecondViewController.h */,
+				DE18011613AF860D00B0C973 /* SecondViewController.m */,
+				DE18011813AF860D00B0C973 /* FirstView.xib */,
+				DE18011B13AF860E00B0C973 /* SecondView.xib */,
+				DE18010413AF860D00B0C973 /* Supporting Files */,
+			);
+			path = kajametro;
+			sourceTree = "<group>";
+		};
+		DE18010413AF860D00B0C973 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE18010513AF860D00B0C973 /* kajametro-Info.plist */,
+				DE18010613AF860D00B0C973 /* InfoPlist.strings */,
+				DE18010913AF860D00B0C973 /* kajametro-Prefix.pch */,
+				DE18010A13AF860D00B0C973 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE1800F813AF860D00B0C973 /* kajametro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE18012013AF860E00B0C973 /* Build configuration list for PBXNativeTarget "kajametro" */;
+			buildPhases = (
+				DE1800F513AF860D00B0C973 /* Sources */,
+				DE1800F613AF860D00B0C973 /* Frameworks */,
+				DE1800F713AF860D00B0C973 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kajametro;
+			productName = kajametro;
+			productReference = DE1800F913AF860D00B0C973 /* kajametro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE1800F013AF860D00B0C973 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Software by Daniel Choi";
+			};
+			buildConfigurationList = DE1800F313AF860D00B0C973 /* Build configuration list for PBXProject "kajametro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DE1800EE13AF860D00B0C973;
+			productRefGroup = DE1800FA13AF860D00B0C973 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE1800F813AF860D00B0C973 /* kajametro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE1800F713AF860D00B0C973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE18010813AF860D00B0C973 /* InfoPlist.strings in Resources */,
+				DE18011113AF860D00B0C973 /* MainWindow.xib in Resources */,
+				DE18011A13AF860D00B0C973 /* FirstView.xib in Resources */,
+				DE18011D13AF860E00B0C973 /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE1800F513AF860D00B0C973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE18010B13AF860D00B0C973 /* main.m in Sources */,
+				DE18010E13AF860D00B0C973 /* kajametroAppDelegate.m in Sources */,
+				DE18011413AF860D00B0C973 /* FirstViewController.m in Sources */,
+				DE18011713AF860D00B0C973 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE18010613AF860D00B0C973 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE18010713AF860D00B0C973 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DE18010F13AF860D00B0C973 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE18011013AF860D00B0C973 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		DE18011813AF860D00B0C973 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE18011913AF860D00B0C973 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		DE18011B13AF860E00B0C973 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE18011C13AF860E00B0C973 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE18011E13AF860E00B0C973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE18011F13AF860E00B0C973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		DE18012113AF860E00B0C973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kajametro/kajametro-Prefix.pch";
+				INFOPLIST_FILE = "kajametro/kajametro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DE18012213AF860E00B0C973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kajametro/kajametro-Prefix.pch";
+				INFOPLIST_FILE = "kajametro/kajametro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE1800F313AF860D00B0C973 /* Build configuration list for PBXProject "kajametro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE18011E13AF860E00B0C973 /* Debug */,
+				DE18011F13AF860E00B0C973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE18012013AF860E00B0C973 /* Build configuration list for PBXNativeTarget "kajametro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE18012113AF860E00B0C973 /* Debug */,
+				DE18012213AF860E00B0C973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE1800F013AF860D00B0C973 /* Project object */;
+}
