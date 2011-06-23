@@ -21,12 +21,12 @@
 		DE18010213AF860D00B0C973 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE18010113AF860D00B0C973 /* CoreGraphics.framework */; };
 		DE18010813AF860D00B0C973 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE18010613AF860D00B0C973 /* InfoPlist.strings */; };
 		DE18010B13AF860D00B0C973 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE18010A13AF860D00B0C973 /* main.m */; };
-		DE18010E13AF860D00B0C973 /* kajametroAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE18010D13AF860D00B0C973 /* kajametroAppDelegate.m */; };
-		DE18011113AF860D00B0C973 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE18010F13AF860D00B0C973 /* MainWindow.xib */; };
 		DE18011413AF860D00B0C973 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE18011313AF860D00B0C973 /* FirstViewController.m */; };
 		DE18011713AF860D00B0C973 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE18011613AF860D00B0C973 /* SecondViewController.m */; };
 		DE18011A13AF860D00B0C973 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE18011813AF860D00B0C973 /* FirstView.xib */; };
 		DE18011D13AF860E00B0C973 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE18011B13AF860E00B0C973 /* SecondView.xib */; };
+		DE48078D13B3FA9700927A7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE48078C13B3FA9700927A7F /* AppDelegate.m */; };
+		DE48079013B3FAB100927A7F /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE48078F13B3FAB100927A7F /* TabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -197,15 +197,16 @@
 		DE18010713AF860D00B0C973 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DE18010913AF860D00B0C973 /* kajametro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kajametro-Prefix.pch"; sourceTree = "<group>"; };
 		DE18010A13AF860D00B0C973 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DE18010C13AF860D00B0C973 /* kajametroAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kajametroAppDelegate.h; sourceTree = "<group>"; };
-		DE18010D13AF860D00B0C973 /* kajametroAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kajametroAppDelegate.m; sourceTree = "<group>"; };
-		DE18011013AF860D00B0C973 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		DE18010C13AF860D00B0C973 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DE18011213AF860D00B0C973 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		DE18011313AF860D00B0C973 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		DE18011513AF860D00B0C973 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		DE18011613AF860D00B0C973 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		DE18011913AF860D00B0C973 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
 		DE18011C13AF860E00B0C973 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		DE48078C13B3FA9700927A7F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE48078E13B3FAB100927A7F /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		DE48078F13B3FAB100927A7F /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -331,9 +332,10 @@
 		DE18010313AF860D00B0C973 /* kajametro */ = {
 			isa = PBXGroup;
 			children = (
-				DE18010C13AF860D00B0C973 /* kajametroAppDelegate.h */,
-				DE18010D13AF860D00B0C973 /* kajametroAppDelegate.m */,
-				DE18010F13AF860D00B0C973 /* MainWindow.xib */,
+				DE48078E13B3FAB100927A7F /* TabBarController.h */,
+				DE48078F13B3FAB100927A7F /* TabBarController.m */,
+				DE48078C13B3FA9700927A7F /* AppDelegate.m */,
+				DE18010C13AF860D00B0C973 /* AppDelegate.h */,
 				DE18011213AF860D00B0C973 /* FirstViewController.h */,
 				DE18011313AF860D00B0C973 /* FirstViewController.m */,
 				DE18011513AF860D00B0C973 /* SecondViewController.h */,
@@ -547,7 +549,6 @@
 			files = (
 				320B6C86F11D9990244A9731 /* Three20.bundle in Resources */,
 				DE18010813AF860D00B0C973 /* InfoPlist.strings in Resources */,
-				DE18011113AF860D00B0C973 /* MainWindow.xib in Resources */,
 				DE18011A13AF860D00B0C973 /* FirstView.xib in Resources */,
 				DE18011D13AF860E00B0C973 /* SecondView.xib in Resources */,
 			);
@@ -561,9 +562,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE18010B13AF860D00B0C973 /* main.m in Sources */,
-				DE18010E13AF860D00B0C973 /* kajametroAppDelegate.m in Sources */,
 				DE18011413AF860D00B0C973 /* FirstViewController.m in Sources */,
 				DE18011713AF860D00B0C973 /* SecondViewController.m in Sources */,
+				DE48078D13B3FA9700927A7F /* AppDelegate.m in Sources */,
+				DE48079013B3FAB100927A7F /* TabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,14 +616,6 @@
 				DE18010713AF860D00B0C973 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		DE18010F13AF860D00B0C973 /* MainWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE18011013AF860D00B0C973 /* en */,
-			);
-			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
 		DE18011813AF860D00B0C973 /* FirstView.xib */ = {

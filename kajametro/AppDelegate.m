@@ -1,28 +1,38 @@
-//
-//  kajametroAppDelegate.m
-//  kajametro
-//
-//  Created by Daniel Choi on 6/20/11.
-//  Copyright 2011 Software by Daniel Choi. All rights reserved.
-//
+#import "AppDelegate.h"
+#import "TabBarController.h"
+#import "FirstViewController.h"
+#import "SecondViewController.h"
 
-#import "kajametroAppDelegate.h"
-
-@implementation kajametroAppDelegate
-
-
-@synthesize window=_window;
-
-@synthesize tabBarController=_tabBarController;
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+@implementation AppDelegate
+- (void)applicationDidFinishLaunching:(UIApplication *)application 
 {
-    // Override point for customization after application launch.
-    // Add the tab bar controller's current view as a subview of the window
-    self.window.rootViewController = self.tabBarController;
-    [self.window makeKeyAndVisible];
-    return YES;
+  TTNavigator* navigator = [TTNavigator navigator];
+  navigator.persistenceMode = TTNavigatorPersistenceModeAll;
+  navigator.window = [[[UIWindow alloc] initWithFrame:TTScreenBounds()] autorelease];;
+  TTURLMap* map = navigator.URLMap;
+
+  [map from:@"*" toViewController:[TTWebController class]];
+  [map from:@"tt://tabBar" toSharedViewController:[TabBarController class]];
+  [map from:@"tt://first" toSharedViewController:[FirstViewController class]];
+  [map from:@"tt://second" toSharedViewController:[SecondViewController class]];
+
+   if (![navigator restoreViewControllers]) {
+    [navigator openURLAction:[TTURLAction actionWithURLPath:@"tt://tabBar"]];
+  }
+ 
+  // Override point for customization after application launch.
+  // Add the tab bar controller's current view as a subview of the window
+  //self.window.rootViewController = self.tabBarController;
+  //[self.window makeKeyAndVisible];
+   TTDPRINT(@"test");
+  //  return YES;
 }
+
+- (BOOL)application:(UIApplication*)application handleOpenURL:(NSURL*)URL {
+  [[TTNavigator navigator] openURLAction:[TTURLAction actionWithURLPath:URL.absoluteString]];
+  return YES;
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
@@ -63,11 +73,8 @@
      */
 }
 
-- (void)dealloc
-{
-    [_window release];
-    [_tabBarController release];
-    [super dealloc];
+- (void)dealloc { 
+  [super dealloc];
 }
 
 /*
