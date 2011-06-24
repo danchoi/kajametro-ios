@@ -10,22 +10,14 @@
   navigator.persistenceMode = TTNavigatorPersistenceModeAll;
   navigator.window = [[[UIWindow alloc] initWithFrame:TTScreenBounds()] autorelease];;
   TTURLMap* map = navigator.URLMap;
-
   [map from:@"*" toViewController:[TTWebController class]];
   [map from:@"tt://tabBar" toSharedViewController:[TabBarController class]];
   [map from:@"tt://first" toSharedViewController:[FirstViewController class]];
   [map from:@"tt://second" toSharedViewController:[SecondViewController class]];
-
    if (![navigator restoreViewControllers]) {
     [navigator openURLAction:[TTURLAction actionWithURLPath:@"tt://tabBar"]];
   }
- 
-  // Override point for customization after application launch.
-  // Add the tab bar controller's current view as a subview of the window
-  //self.window.rootViewController = self.tabBarController;
-  //[self.window makeKeyAndVisible];
-   TTDPRINT(@"test");
-  //  return YES;
+  TTDPRINT(@"test");
 }
 
 - (BOOL)application:(UIApplication*)application handleOpenURL:(NSURL*)URL {

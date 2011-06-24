@@ -12,21 +12,21 @@
 		320A5A189C235877202780D5 /* libThree20Network.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320A5A189C235877202780D4 /* libThree20Network.a */; };
 		320A737074758E53BA54BE95 /* libThree20UINavigator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320A737074758E53BA54BE94 /* libThree20UINavigator.a */; };
 		320AF8492C47A4D819F7C451 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320AF8492C47A4D819F7C450 /* QuartzCore.framework */; };
-		320B6C86F11D9990244A9731 /* Three20.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 320B6C86F11D9990244A9730 /* Three20.bundle */; };
 		320CC833B8AF0ACFD35E6225 /* libThree20Style.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320CC833B8AF0ACFD35E6224 /* libThree20Style.a */; };
 		320D7DCCE32703ACAB9A45E5 /* libThree20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320D7DCCE32703ACAB9A45E4 /* libThree20.a */; };
 		320F2C48872C2E2C4DF86205 /* libThree20UI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320F2C48872C2E2C4DF86204 /* libThree20UI.a */; };
 		DE1800FE13AF860D00B0C973 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1800FD13AF860D00B0C973 /* UIKit.framework */; };
 		DE18010013AF860D00B0C973 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1800FF13AF860D00B0C973 /* Foundation.framework */; };
 		DE18010213AF860D00B0C973 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE18010113AF860D00B0C973 /* CoreGraphics.framework */; };
-		DE18010813AF860D00B0C973 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE18010613AF860D00B0C973 /* InfoPlist.strings */; };
-		DE18010B13AF860D00B0C973 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE18010A13AF860D00B0C973 /* main.m */; };
-		DE18011413AF860D00B0C973 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE18011313AF860D00B0C973 /* FirstViewController.m */; };
-		DE18011713AF860D00B0C973 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE18011613AF860D00B0C973 /* SecondViewController.m */; };
-		DE18011A13AF860D00B0C973 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE18011813AF860D00B0C973 /* FirstView.xib */; };
-		DE18011D13AF860E00B0C973 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE18011B13AF860E00B0C973 /* SecondView.xib */; };
-		DE48078D13B3FA9700927A7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE48078C13B3FA9700927A7F /* AppDelegate.m */; };
-		DE48079013B3FAB100927A7F /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE48078F13B3FAB100927A7F /* TabBarController.m */; };
+		DEEB499A13B423B800D47851 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEB498A13B423B800D47851 /* AppDelegate.m */; };
+		DEEB499E13B423B800D47851 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEB499213B423B800D47851 /* FirstViewController.m */; };
+		DEEB49A013B423B800D47851 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEB499513B423B800D47851 /* main.m */; };
+		DEEB49A113B423B800D47851 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEB499713B423B800D47851 /* SecondViewController.m */; };
+		DEEB49A213B423B800D47851 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEB499913B423B800D47851 /* TabBarController.m */; };
+		DEEB49AC13B4242000D47851 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEEB49A413B4242000D47851 /* FirstView.xib */; };
+		DEEB49AD13B4242000D47851 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEEB49A613B4242000D47851 /* InfoPlist.strings */; };
+		DEEB49AE13B4242000D47851 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEEB49A813B4242000D47851 /* SecondView.xib */; };
+		DEEB49AF13B4242000D47851 /* kajametro-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEEB49AA13B4242000D47851 /* kajametro-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -185,7 +185,6 @@
 		320A5A189C235877202780D0 /* Three20Network.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20Network.xcodeproj; path = three20/src/Three20Network/Three20Network.xcodeproj; sourceTree = SOURCE_ROOT; };
 		320A737074758E53BA54BE90 /* Three20UINavigator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20UINavigator.xcodeproj; path = three20/src/Three20UINavigator/Three20UINavigator.xcodeproj; sourceTree = SOURCE_ROOT; };
 		320AF8492C47A4D819F7C450 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		320B6C86F11D9990244A9730 /* Three20.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Three20.bundle; path = three20/src/Three20.bundle; sourceTree = SOURCE_ROOT; };
 		320CC833B8AF0ACFD35E6220 /* Three20Style.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20Style.xcodeproj; path = three20/src/Three20Style/Three20Style.xcodeproj; sourceTree = SOURCE_ROOT; };
 		320D7DCCE32703ACAB9A45E0 /* Three20.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20.xcodeproj; path = three20/src/Three20/Three20.xcodeproj; sourceTree = SOURCE_ROOT; };
 		320F2C48872C2E2C4DF86200 /* Three20UI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20UI.xcodeproj; path = three20/src/Three20UI/Three20UI.xcodeproj; sourceTree = SOURCE_ROOT; };
@@ -193,20 +192,20 @@
 		DE1800FD13AF860D00B0C973 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DE1800FF13AF860D00B0C973 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DE18010113AF860D00B0C973 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DE18010513AF860D00B0C973 /* kajametro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kajametro-Info.plist"; sourceTree = "<group>"; };
-		DE18010713AF860D00B0C973 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DE18010913AF860D00B0C973 /* kajametro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kajametro-Prefix.pch"; sourceTree = "<group>"; };
-		DE18010A13AF860D00B0C973 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DE18010C13AF860D00B0C973 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		DE18011213AF860D00B0C973 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		DE18011313AF860D00B0C973 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		DE18011513AF860D00B0C973 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		DE18011613AF860D00B0C973 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		DE18011913AF860D00B0C973 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
-		DE18011C13AF860E00B0C973 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
-		DE48078C13B3FA9700927A7F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DE48078E13B3FAB100927A7F /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
-		DE48078F13B3FAB100927A7F /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		DEEB498913B423B800D47851 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DEEB498A13B423B800D47851 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DEEB499113B423B800D47851 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		DEEB499213B423B800D47851 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		DEEB499513B423B800D47851 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEEB499613B423B800D47851 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		DEEB499713B423B800D47851 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		DEEB499813B423B800D47851 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		DEEB499913B423B800D47851 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		DEEB49A513B4242000D47851 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		DEEB49A713B4242000D47851 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DEEB49A913B4242000D47851 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		DEEB49AA13B4242000D47851 /* kajametro-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "kajametro-Info.plist"; sourceTree = "<group>"; };
+		DEEB49AB13B4242000D47851 /* kajametro-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "kajametro-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -297,7 +296,8 @@
 		DE1800EE13AF860D00B0C973 = {
 			isa = PBXGroup;
 			children = (
-				DE18010313AF860D00B0C973 /* kajametro */,
+				DEEB49A313B4242000D47851 /* kajametro */,
+				DEEB498813B423B800D47851 /* Classes */,
 				DE1800FC13AF860D00B0C973 /* Frameworks */,
 				DE1800FA13AF860D00B0C973 /* Products */,
 			);
@@ -329,34 +329,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DE18010313AF860D00B0C973 /* kajametro */ = {
+		DEEB498813B423B800D47851 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				DE48078E13B3FAB100927A7F /* TabBarController.h */,
-				DE48078F13B3FAB100927A7F /* TabBarController.m */,
-				DE48078C13B3FA9700927A7F /* AppDelegate.m */,
-				DE18010C13AF860D00B0C973 /* AppDelegate.h */,
-				DE18011213AF860D00B0C973 /* FirstViewController.h */,
-				DE18011313AF860D00B0C973 /* FirstViewController.m */,
-				DE18011513AF860D00B0C973 /* SecondViewController.h */,
-				DE18011613AF860D00B0C973 /* SecondViewController.m */,
-				DE18011813AF860D00B0C973 /* FirstView.xib */,
-				DE18011B13AF860E00B0C973 /* SecondView.xib */,
-				DE18010413AF860D00B0C973 /* Supporting Files */,
+				DEEB498913B423B800D47851 /* AppDelegate.h */,
+				DEEB498A13B423B800D47851 /* AppDelegate.m */,
+				DEEB499113B423B800D47851 /* FirstViewController.h */,
+				DEEB499213B423B800D47851 /* FirstViewController.m */,
+				DEEB499513B423B800D47851 /* main.m */,
+				DEEB499613B423B800D47851 /* SecondViewController.h */,
+				DEEB499713B423B800D47851 /* SecondViewController.m */,
+				DEEB499813B423B800D47851 /* TabBarController.h */,
+				DEEB499913B423B800D47851 /* TabBarController.m */,
 			);
-			path = kajametro;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		DE18010413AF860D00B0C973 /* Supporting Files */ = {
+		DEEB49A313B4242000D47851 /* kajametro */ = {
 			isa = PBXGroup;
 			children = (
-				320B6C86F11D9990244A9730 /* Three20.bundle */,
-				DE18010513AF860D00B0C973 /* kajametro-Info.plist */,
-				DE18010613AF860D00B0C973 /* InfoPlist.strings */,
-				DE18010913AF860D00B0C973 /* kajametro-Prefix.pch */,
-				DE18010A13AF860D00B0C973 /* main.m */,
+				DEEB49A413B4242000D47851 /* FirstView.xib */,
+				DEEB49A613B4242000D47851 /* InfoPlist.strings */,
+				DEEB49A813B4242000D47851 /* SecondView.xib */,
+				DEEB49AA13B4242000D47851 /* kajametro-Info.plist */,
+				DEEB49AB13B4242000D47851 /* kajametro-Prefix.pch */,
 			);
-			name = "Supporting Files";
+			path = kajametro;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -547,10 +545,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				320B6C86F11D9990244A9731 /* Three20.bundle in Resources */,
-				DE18010813AF860D00B0C973 /* InfoPlist.strings in Resources */,
-				DE18011A13AF860D00B0C973 /* FirstView.xib in Resources */,
-				DE18011D13AF860E00B0C973 /* SecondView.xib in Resources */,
+				DEEB49AC13B4242000D47851 /* FirstView.xib in Resources */,
+				DEEB49AD13B4242000D47851 /* InfoPlist.strings in Resources */,
+				DEEB49AE13B4242000D47851 /* SecondView.xib in Resources */,
+				DEEB49AF13B4242000D47851 /* kajametro-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,11 +559,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE18010B13AF860D00B0C973 /* main.m in Sources */,
-				DE18011413AF860D00B0C973 /* FirstViewController.m in Sources */,
-				DE18011713AF860D00B0C973 /* SecondViewController.m in Sources */,
-				DE48078D13B3FA9700927A7F /* AppDelegate.m in Sources */,
-				DE48079013B3FAB100927A7F /* TabBarController.m in Sources */,
+				DEEB499A13B423B800D47851 /* AppDelegate.m in Sources */,
+				DEEB499E13B423B800D47851 /* FirstViewController.m in Sources */,
+				DEEB49A013B423B800D47851 /* main.m in Sources */,
+				DEEB49A113B423B800D47851 /* SecondViewController.m in Sources */,
+				DEEB49A213B423B800D47851 /* TabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,26 +608,26 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DE18010613AF860D00B0C973 /* InfoPlist.strings */ = {
+		DEEB49A413B4242000D47851 /* FirstView.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DE18010713AF860D00B0C973 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		DE18011813AF860D00B0C973 /* FirstView.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE18011913AF860D00B0C973 /* en */,
+				DEEB49A513B4242000D47851 /* en */,
 			);
 			name = FirstView.xib;
 			sourceTree = "<group>";
 		};
-		DE18011B13AF860E00B0C973 /* SecondView.xib */ = {
+		DEEB49A613B4242000D47851 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DE18011C13AF860E00B0C973 /* en */,
+				DEEB49A713B4242000D47851 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DEEB49A813B4242000D47851 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEEB49A913B4242000D47851 /* en */,
 			);
 			name = SecondView.xib;
 			sourceTree = "<group>";
